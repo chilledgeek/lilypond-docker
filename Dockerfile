@@ -15,5 +15,3 @@ RUN chmod +x lilypond-2.18.2-1.linux-64.sh
 RUN ./lilypond-2.18.2-1.linux-64.sh --batch --prefix /lilypond
 
 RUN rm -rf lilypond-2.18.2-1.linux-64.sh
-
-USER 1001
