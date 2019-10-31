@@ -15,3 +15,8 @@ RUN chmod +x lilypond-2.18.2-1.linux-64.sh
 RUN ./lilypond-2.18.2-1.linux-64.sh --batch --prefix /lilypond
 
 RUN rm -rf lilypond-2.18.2-1.linux-64.sh
+
+RUN mkdir -p /workdir
+RUN chmod -R 777 /workdir
+
+USER 1001

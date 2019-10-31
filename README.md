@@ -5,4 +5,4 @@
 # Lilypond Docker
 - Base docker image with [lilypond](http://lilypond.org/) functionalities
 - Location of lilypond: ```/lilypond/bin/lilypond```
-
+- Creates a working directory ```/workdir```
